@@ -3,31 +3,41 @@
 	<head>
 		<title>Tony Doan, Homie</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="shortcut icon" type="image/png" href="images/fire.png">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<!-- <link rel="shortcut icon" type="image/png" href="images/fire.png"> -->
 	</head>
 	<body>
 		<nav>
     		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/experience">Experience</a></li>
-        		<li><a href="/projects">Projects</a></li>
-        		<li><a href="/misc">Misc.</a></li>
+        		<li><a href="index.html">Home</a></li>
+	        	<li><a href="experience.html">Experience</a></li>
+        		<li><a href="projects.html">Projects</a></li>
+        		<li><a href="misc.html">Misc.</a></li>
     		</ul>
 		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Tony Doan!</h1>
-				<p> This website is meant to be an extension of my resume, I guess you can call it my resume++.</p>
-				<p> Thanks for taking the time to visit my webpage!</p>
-				<p><a href="/experience">Read more about me!</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+		<div class="mainBody">
+			<div class="topBody">
+				<img class="myImage" src="meAndUnicorn.png" alt="meme">
+    			<div class="subHeading"> 
+    				<h1>Hi there, I'm Tony Doan!</h1>
+    				<p> I am currently a fourth-year student attending UC Davis. I'm studying computer science as well as education. Thanks for taking the time to learn more about me!</p>
+    			</div>
+    		</div>
+
+    		<div class="time">
+    			<p>Total Time Spent Job Hunting: </p>
+				<div id="countdown">I will update this if you hire me</div>
+			</div>
+
+			<p><a href="experience.html">Read more about me!</a></p>
+		</div>
 		<footer>
     		<ul>
         		<li><a href="mailto:toedoan@gmail.com">email</a></li>
         		<li><a href="https://github.com/towoknee">github.com/towoknee</a></li>
 		</ul>
 		</footer>
+
+	<script src="./script.js"></script>
 	</body>
 </html>
