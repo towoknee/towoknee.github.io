@@ -8,8 +8,9 @@ function counter() {
 	//let startDate = new Date();
 	let today = new Date();
 	console.log("today" + today);
-	console.log("started" + startedLooking);
+	console.log("endDate" + endDate);
 	let timeLeft = endDate - today;
+	console.log("timeLeft: " + timeLeft);
 	let sec = timeLeft/1000; 
 	sec = parseInt(sec);
 	cd.textContent = sec.toLocaleString();
