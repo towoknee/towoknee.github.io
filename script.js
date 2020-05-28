@@ -1,7 +1,7 @@
 let cd = document.getElementById("countdown");
-let endDate = new Date("May 10, 2020 17:00:00");
+let endDate = new Date("June 12, 2020 17:00:00");
 
-let startedLooking = new Date("January 1, 2020 00:00:00");
+let startedLooking = new Date();
 
 
 function counter() {
