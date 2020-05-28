@@ -9,7 +9,7 @@ function counter() {
 	let today = new Date();
 	console.log("today" + today);
 	console.log("started" + startedLooking);
-	let timeLeft = today - startedLooking;
+	let timeLeft = endDate - today;
 	let sec = timeLeft/1000; 
 	sec = parseInt(sec);
 	cd.textContent = sec.toLocaleString();
