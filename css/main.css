@@ -52,8 +52,9 @@ ul.posts li {
 }
 
 .myImage {
+    object-fit: cover;
     width:30%;
-    height:auto;
+    height:30%;
     margin-right: 30px;
 }
 
