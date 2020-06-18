@@ -9,7 +9,7 @@ function counter() {
 	let today = new Date();
 	console.log("today" + today);
 	console.log("endDate" + endDate);
-	let timeLeft = endDate - today;
+	let timeLeft = today - endDate;
 	console.log("timeLeft: " + timeLeft);
 	let sec = timeLeft/1000; 
 	sec = parseInt(sec);
